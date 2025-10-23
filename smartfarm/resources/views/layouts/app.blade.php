@@ -3,12 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SmartFarm</title>
+  <title>AgriAdapt</title>
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 <body>
   <header class="navbar">
-    <h1>🌾 SmartFarm</h1>
+
+    <h1>🌱 AgriAdapt</h1>
     <nav>
       <a href="{{ route('cuaca.index') }}">Cuaca</a>
       <a href="{{ route('rekom.index') }}">Rekomendasi Tanam</a>
@@ -20,7 +21,7 @@
   </main>
 
   <footer class="footer">
-    <p>© {{ date('Y') }} SmartFarm</p>
+    <p>© {{ date('Y') }} AgriAdapt</p>
   </footer>
 </body>
 </html>
